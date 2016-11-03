@@ -35,7 +35,7 @@ public class Boletin5_7 {
             case 1:
                 int lado;
                 lado = Integer.parseInt(JOptionPane.showInputDialog("Escriba el lado: "));
-                System.out.println("- Cuadrado: " + lado * lado);
+                JOptionPane.showMessageDialog(null,"- Cuadrado: " + lado * lado);
                 break;
             case 2:
                 int b, h;
