@@ -17,6 +17,7 @@ public class Boletin5_7 {
     public static void main(String[] args) {
         // TODO code application logic here
         int opc;
+        //Mostrar ociones
         System.out.println("Escoge la opcion que precises:");
         System.out.println("- Cuadrado");
         System.out.println("- Triangulo");
