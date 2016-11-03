@@ -41,12 +41,14 @@ public class Boletin5_7 {
                 int b, h;
                 b = Integer.parseInt(JOptionPane.showInputDialog("Escriba la base: "));
                 h = Integer.parseInt(JOptionPane.showInputDialog("Escriba la altura: "));
-                System.out.println("- Triangulo: " + (b * h) / 2);
+
+                JOptionPane.showMessageDialog(null,"- Triangulo: " + (b * h) / 2);
                 break;
             case 3:
                 int rad;
                 rad = Integer.parseInt(JOptionPane.showInputDialog("Escriba el radio: "));
-                System.out.println("- Circulo: " + Math.pow(rad, 2) * Math.PI );
+
+                JOptionPane.showMessageDialog(null,"- Circulo: " + Math.pow(rad, 2) * Math.PI);
                 break;   
         }
     }
